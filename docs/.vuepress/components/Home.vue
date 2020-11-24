@@ -10,7 +10,7 @@
       .p {{$frontmatter.description}}
     .h2 Getting Started
     .features
-      router-link(to="/introduction/overview").features__item.features__item__light
+      router-link(to="/introduction/lattice-solutions").features__item.features__item__light
         .features__item__image
           icon-rocket.features__item__image__img
         .features__item__text

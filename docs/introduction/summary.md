@@ -1,8 +1,8 @@
 <!--
-order: 1
+order: 3
 -->
 
-# High-Level Overview
+# Summary
 
 Lattice Link is a **real world data ingress for cross chain applications**. Its purpose is to collect, validate, aggregates and interpolate real-world datasets and feed them into smart contracts on Ethereum and Polkadot.
 

@@ -3,14 +3,14 @@ layout: home
 title: Lattice Link
 description: Trusted real world data ingress for modern cross-chain applications.
 sections:
-  - title: Introduction
+  - title: Summary
     desc: High-level overview of Lattice
-    url: /introduction/overview
+    url: /introduction/summary
     icon: intro
   - title: Whitepaper
     desc: Deeper dive into Lattice components
     icon: whitepaper
-    url: /whitepaper/introduction
+    url: /whitepaper/lattice-node
 stack:
   - title: Polkadot
     desc: The blockchain framework powering Lattice on-chain consensus
