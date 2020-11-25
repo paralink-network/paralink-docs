@@ -5,7 +5,7 @@ description: Trusted real world data ingress for modern cross-chain applications
 sections:
   - title: Summary
     desc: High-level overview of Lattice
-    url: /introduction/summary
+    url: /whitepaper/summary
     icon: intro
   - title: Whitepaper
     desc: Deeper dive into Lattice components
