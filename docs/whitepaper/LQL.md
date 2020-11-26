@@ -8,12 +8,13 @@ Lattice data requests can be made via LQL definitions, which are JSON based desc
 
 The data collected from multiple sources and aggregated with a function like `median` or `mean`, validated using `validation` conditions  and  then returned to the caller's smart contract of choice via the `callback`.
 
-#### Example definition
+### Example definition
 
 ```json
 {
+    "name": "Bitcoin Ticker",
     "schema": {
-        "@price": "int",
+        "@price": "eth::uint256",
     },
     "sources": [
         {
@@ -54,3 +55,7 @@ The data collected from multiple sources and aggregated with a function like `me
 
 
 *Note: LQL is not finalized yet, and subject to change in future revisions.*
+
+### IPFS
+
+IPFS is used to immutably store the job definition and provide an addressable content hash. The hash is only 32 bytes long, which is significantly shorter than the job definition itself, making it suitable for request signalling on resource constrained chains such as Ethereum.
