@@ -71,7 +71,7 @@ module.exports = {
       services: [
         {
           service: 'github',
-          url: '',
+          url: 'https://github.com/ParaLinkNetwork',
         },
         {
           service: 'twitter',
@@ -97,8 +97,12 @@ module.exports = {
           title: 'Links',
           children: [
             {
-              title: 'ParaLink Network Website',
+              title: 'Website',
               url: 'https://paralink.network',
+            },
+            {
+              title: 'Blog',
+              url: 'https://blog.paralink.network',
             },
           ],
         },
@@ -111,10 +115,6 @@ module.exports = {
             },
             {
               title: 'Developer Discord',
-              url: 'https://paralink.network',
-            },
-            {
-              title: 'Blog',
               url: 'https://paralink.network',
             },
           ],

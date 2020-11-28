@@ -6,7 +6,7 @@ order: 2
 
 #### Real-world data ingress
 
-Sourcing the data is done by **Paralink Nodes** trough Paralink Query Language (PQL). **PQL** allows one to query SQL databases, access web API's, scrape websites as well as access state from other blockchains. Additional robustness is achieved with PQL validation, aggregation and interpolation rules for merging information from different sources. The PQL definitions describe the ETL process to be executed by Paralink Nodes and are immutably stored and accessed via IPFS. This allows developers to add custom data sources and post-processing rules in a permissionless way. A public, community maintained repository of PQL definitions will be available after launch, providing developers with pre-built solutions for most common data problems. 
+Sourcing the data is done by **Paralink Nodes** through Paralink Query Language (PQL). **PQL** allows one to query SQL databases, access web API's, scrape websites as well as access state from other blockchains. Additional robustness is achieved with PQL validation, aggregation and interpolation rules for merging information from different sources. The PQL definitions describe the ETL process to be executed by Paralink Nodes and are immutably stored and accessed via IPFS. This allows developers to add custom data sources and post-processing rules in a permissionless way. A public, community maintained repository of PQL definitions will be available after launch, providing developers with pre-built solutions for most common data problems. 
 
 Read more: [Paralink Node](/whitepaper/paralink-node.html), [PQL](/whitepaper/PQL.html)
 
