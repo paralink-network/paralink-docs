@@ -75,19 +75,19 @@ module.exports = {
         },
         {
           service: 'twitter',
-          url: '',
+          url: 'https://twitter.com/ParalinkNetwork',
         },
         {
           service: 'telegram',
-          url: '',
+          url: 'https://t.me/paralink_network',
         },
         {
           service: 'discord',
-          url: '',
+          url: 'https://t.me/paralink_network',
         },
         {
           service: 'medium',
-          url: '',
+          url: 'https://medium.com/paralink-network',
         },
       ],
       smallprint:
@@ -111,11 +111,11 @@ module.exports = {
           children: [
             {
               title: 'Telegram Group',
-              url: 'https://paralink.network',
+              url: 'https://t.me/paralink_network',
             },
             {
               title: 'Developer Discord',
-              url: 'https://paralink.network',
+              url: 'https://t.me/paralink_network',
             },
           ],
         },
