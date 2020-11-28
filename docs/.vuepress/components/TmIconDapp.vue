@@ -31,7 +31,7 @@
         ></polygon>
         <polygon
           id="Polygon-Copy"
-          fill="#5269FF"
+          fill="#3769a7"
           points="18.4 16 25.3282032 20 25.3282032 28 18.4 32 11.4717968 28 11.4717968 20"
         ></polygon>
         <polygon

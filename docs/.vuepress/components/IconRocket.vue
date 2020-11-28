@@ -13,11 +13,11 @@
     <defs>
       <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
         <stop stop-color="#8AA2FF" offset="0%"></stop>
-        <stop stop-color="#5269FF" offset="100%"></stop>
+        <stop stop-color="#3769a7" offset="100%"></stop>
       </linearGradient>
       <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
         <stop stop-color="#8AA2FF" offset="0%"></stop>
-        <stop stop-color="#5269FF" offset="100%"></stop>
+        <stop stop-color="#3769a7" offset="100%"></stop>
       </linearGradient>
     </defs>
     <g

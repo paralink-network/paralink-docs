@@ -36,7 +36,7 @@
         ></polygon>
         <polygon
           id="Rectangle-Copy"
-          fill="#5269FF"
+          fill="#3769a7"
           transform="translate(20.589364, 19.517001) scale(-1, 1) translate(-20.589364, -19.517001) "
           points="13.7262424 7.29206626 27.4524847 14.3069312 27.4524847 31.7419355 13.7262424 24.7270705"
         ></polygon>
