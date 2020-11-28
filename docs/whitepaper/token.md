@@ -4,13 +4,13 @@ order: 7
 
 # Paralink Token
 
-Paralink Token (PARA) is an incentive token used for on-chain coordination and governance. 
+Paralink Token (PARA) is an incentive token used for on-chain coordination and governance.
 
 ### Gas Costs & Ingress Incentives
 
-LLT is used to pay for gas costs of the callbacks onto 3rd party blockchains. The latest suggested gas price is available trough the [Paralink Gas Oracle]().
+PARA is used to pay for gas costs of the callbacks onto 3rd party blockchains. The latest suggested gas price is available trough the [Paralink Gas Oracle]().
 
-Adding LLT as a fee to a data request transaction is also an incentive mechanism for a particular quorum to prioritize the query.
+Adding PARA as a fee to a data request transaction is also an incentive mechanism for a particular quorum to prioritize the query.
 
 ### Creating a Quorum of Relayers
 
