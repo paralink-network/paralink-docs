@@ -4,6 +4,6 @@ parent:
   order: 5
 -->
 
-# Lattice Link Whitepaper
+# Paralink Whitepaper
 
-This whitepaper outlines implementation plans and research directions for [Lattice Link](https://lattice.link) Nodes, on-chain consensus and entropy as a service.
+This whitepaper outlines implementation plans and research directions for [Paralink](https://paralink.network) Nodes, on-chain consensus and entropy as a service.

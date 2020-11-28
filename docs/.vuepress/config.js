@@ -1,6 +1,6 @@
 module.exports = {
   theme: 'cosmos',
-  title: 'Lattice Link Documentation',
+  title: 'ParaLink Network Documentation',
   locales: {
     '/': {
       lang: 'en-US',
@@ -8,13 +8,13 @@ module.exports = {
   },
   base: process.env.VUEPRESS_BASE || '/',
   themeConfig: {
-    repo: 'LatticeLink/lattice-node',
-    docsRepo: 'LatticeLink/lattice-docs',
+    repo: 'ParaLinkNetwork/paralink-node',
+    docsRepo: 'ParaLinkNetwork/paralink-docs',
     docsDir: 'docs',
     editLinks: true,
     custom: true,
     logo: {
-      src: 'https://lattice.link/images/logo.png',
+      src: 'https://paralink.network/images/logo.png',
     },
     topbar: {
       banner: false,
@@ -50,7 +50,7 @@ module.exports = {
       },
       forum: {
         title: 'Telegram Group',
-        text: 'General chat for all things Lattice Link',
+        text: 'General chat for all things ParaLink',
         url: '',
         bg: 'linear-gradient(221.79deg, #2eb1f3 -1.08%, #0289cc 95.88%)',
         logo: 'telegram',
@@ -58,15 +58,15 @@ module.exports = {
       github: {
         title: 'Found an Issue?',
         text: 'Help us improve this page by suggesting edits on GitHub.',
-        url: 'https://github.com/LatticeLink/lattice-docs',
+        url: 'https://github.com/ParaLinkNetwork/paralink-docs',
         bg: '#F8F9FC',
       },
     },
     footer: {
-      logo: 'https://lattice.link/images/logo.png',
+      logo: 'https://paralink.network/images/logo.png',
       textLink: {
         text: '',
-        url: 'https://lattice.link',
+        url: 'https://paralink.network',
       },
       services: [
         {
@@ -97,8 +97,8 @@ module.exports = {
           title: 'Links',
           children: [
             {
-              title: 'Lattice Link Website',
-              url: 'https://lattice.link',
+              title: 'ParaLink Network Website',
+              url: 'https://paralink.network',
             },
           ],
         },
@@ -107,15 +107,15 @@ module.exports = {
           children: [
             {
               title: 'Telegram Group',
-              url: 'https://lattice.link',
+              url: 'https://paralink.network',
             },
             {
               title: 'Developer Discord',
-              url: 'https://lattice.link',
+              url: 'https://paralink.network',
             },
             {
-              title: 'Lattice Link Blog',
-              url: 'https://lattice.link',
+              title: 'Blog',
+              url: 'https://paralink.network',
             },
           ],
         },

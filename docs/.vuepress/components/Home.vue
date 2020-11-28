@@ -10,16 +10,16 @@
       .p {{$frontmatter.description}}
     .h2 Getting Started
     .features
-      router-link(to="/introduction/lattice-solutions").features__item.features__item__light
+      router-link(to="/introduction/paralink-solutions").features__item.features__item__light
         .features__item__image
           icon-rocket.features__item__image__img
         .features__item__text
           .features__item__text__h2 read
-          .features__item__text__h1 Introduction to Lattice
-          .features__item__text__p Learn about the various parts that make up Lattice
+          .features__item__text__h1 Introduction to Paralink
+          .features__item__text__p Learn about the various parts that make up Paralink
     .sections__wrapper
       .h2 Learn
-      .p__alt Get familiar with Lattice Nodes, Lattice Query Language and Lattice entropy as a service.
+      .p__alt Get familiar with Paralink Nodes, Paralink Query Language and Paralink entropy as a service.
       .sections
         router-link.sections__item(tag="a" :to="section.url" v-for="section in $frontmatter.sections")
           component(:is="`tm-icon-${section.icon}`").sections__item__icon
@@ -27,7 +27,7 @@
             .sections__item__title {{section.title}}
             .sections__item__desc {{section.desc}}
     .h2 Development Stack
-    .p__alt Check out the docs for the various parts of Lattice's core technical stack.
+    .p__alt Check out the docs for the various parts of Paralink's core technical stack.
     .stack
       a.stack__item(:href="item.url" v-for="item in $frontmatter.stack" :style="{'--accent': item.color, '--opacity': '5%'}")
         .stack__item__wrapper

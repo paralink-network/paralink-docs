@@ -1,13 +1,13 @@
 {
-  "name": "lattice-docs",
+  "name": "paralink-docs",
   "version": "0.0.1",
-  "description": "Lattice Link developer documentation",
+  "description": "ParaLink developer documentation",
   "main": "index.js",
   "authors": {
-    "name": "Lattice Link",
-    "email": "info@lattice.link"
+    "name": "ParaLink Network",
+    "email": "info@paralink.network"
   },
-  "repository": "https://github.com/LatticeLink/lattice-docs",
+  "repository": "https://github.com/ParaLinkNetwork/paralink-docs",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"

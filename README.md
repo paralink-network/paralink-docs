@@ -1,4 +1,4 @@
-# Lattice Link Documentation
+# ParaLink Documentation
 
 ## Development
 
