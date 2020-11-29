@@ -18,7 +18,7 @@ Read more: [On-chain consensus](/whitepaper/consensus.html)
 
 #### High quality entropy
 
-Blockchains are purely deterministic state machines by necessity of a block-level consensus algorithm. This means that a native implementation of randomness to be used for luck based games is not possible. For this reason, Paralink Link provides a cryptographically signed xxxxx bits/s hardware based entropy ingress. Public entropy samples will be provided on the daily basis for statistical analysis.
+Blockchains are purely deterministic state machines by necessity of a block-level consensus algorithm. This means that a native implementation of randomness to be used for luck based games is not possible. For this reason, Paralink Link provides a cryptographically signed hardware based entropy ingress. Public entropy samples will be provided on the daily basis for statistical analysis.
 
 Read more: [Entropy generation](/whitepaper/entropy.html)
 
