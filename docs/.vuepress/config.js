@@ -51,7 +51,7 @@ module.exports = {
       forum: {
         title: 'Telegram Group',
         text: 'General chat for all things ParaLink',
-        url: '',
+        url: 'https://t.me/paralink_network',
         bg: 'linear-gradient(221.79deg, #2eb1f3 -1.08%, #0289cc 95.88%)',
         logo: 'telegram',
       },

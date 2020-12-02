@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Paralink Network
-description: Trusted real world data ingress for modern cross-chain applications.
+description: Real world data ingress for modern cross-chain applications.
 sections:
   - title: Summary
     desc: High-level overview of Paralink
