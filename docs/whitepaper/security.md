@@ -22,7 +22,7 @@ Paralink Nodes can be used as a multi-chain ingress from any 3rd party data sour
 - Requires trust in node operators
 - Only suitable for applications that don't have financial impact
 
-## Trusted Provider
+## Trusted Ingress
 
 Simple Ingress can be upgraded by the virtue of cryptographically signed PQL results with ECDSA private keys from reputable data providers.
 

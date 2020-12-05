@@ -59,3 +59,8 @@ The data collected from multiple sources and aggregated with a function like `me
 ### IPFS
 
 IPFS is used to immutably store the job definition and provide an addressable content hash. The hash is only 32 bytes long, which is significantly shorter than the job definition itself, making it suitable for request signalling on resource constrained chains such as Ethereum.
+
+### Private Datasets
+
+While it is possible to connect to private databases and API's that require credentials - both supported by Paralink Node & PQL -  we do not want to expose those credentials on the public blockchain(s). Furthermore, the owner of the proprietary dataset may want to charge for access. Paralink addresses both use cases with [Trusted Ingress](/whitepaper/security.html#trusted-ingress) solution, where reputable data providers sell their cryptographically signed data feeds.
+
