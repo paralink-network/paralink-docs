@@ -16,7 +16,7 @@ Paralink Node can fetch real world data from RESTful HTTP API's and comes with v
 
 While we are starting with Ethereum and Polkadot ingress, we would like to support *all* public blockchains. This should be possible due to Paralink Node's modular architecture and its open-source nature.
 
-The results of ETL pipelines are fed back to user defined smart contract on their respective blockchain via a `callback` in the PQL definition.
+The results of ETL pipelines are fed back to user defined smart contract on their respective blockchain via a `callback` in the PQL definition. The function is either invoked directly, trough the cross-chain bridge, or XCMP, depending on the [security](/whitepaper/security) mode and target chain.
 
-### 
+![](https://i.imgur.com/rLDzM9G.png)
 

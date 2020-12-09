@@ -28,4 +28,4 @@ Read more: [Entropy generation](/whitepaper/entropy.html)
 
 With these solutions in mind, one can think of Paralink as a data bridge between blockchains and real world data.
 
-![](https://i.imgur.com/dAfML7d.png)
+![](https://i.imgur.com/hKSeKO2.jpg)
