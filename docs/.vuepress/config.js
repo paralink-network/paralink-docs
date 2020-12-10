@@ -8,8 +8,8 @@ module.exports = {
   },
   base: process.env.VUEPRESS_BASE || '/',
   themeConfig: {
-    repo: 'ParaLinkNetwork/paralink-node',
-    docsRepo: 'ParaLinkNetwork/paralink-docs',
+    repo: 'paralink-network/paralink-node',
+    docsRepo: 'paralink-network/paralink-docs',
     docsDir: 'docs',
     editLinks: true,
     custom: true,
@@ -58,7 +58,7 @@ module.exports = {
       github: {
         title: 'Found an Issue?',
         text: 'Help us improve this page by suggesting edits on GitHub.',
-        url: 'https://github.com/ParaLinkNetwork/paralink-docs',
+        url: 'https://github.com/paralink-network/paralink-docs',
         bg: '#F8F9FC',
       },
     },
@@ -71,7 +71,7 @@ module.exports = {
       services: [
         {
           service: 'github',
-          url: 'https://github.com/ParaLinkNetwork',
+          url: 'https://github.com/paralink-network',
         },
         {
           service: 'twitter',

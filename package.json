@@ -7,7 +7,7 @@
     "name": "ParaLink Network",
     "email": "info@paralink.network"
   },
-  "repository": "https://github.com/ParaLinkNetwork/paralink-docs",
+  "repository": "https://github.com/paralink-network/paralink-docs",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
