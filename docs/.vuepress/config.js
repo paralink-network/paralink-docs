@@ -87,7 +87,7 @@ module.exports = {
         },
         {
           service: 'medium',
-          url: 'https://medium.com/paralink-network',
+          url: 'https://blog.paralink.network',
         },
       ],
       smallprint:
