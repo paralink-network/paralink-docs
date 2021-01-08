@@ -10,7 +10,7 @@
       .p {{$frontmatter.description}}
     .h2 Getting Started
     .features
-      router-link(to="/introduction/paralink-solutions").features__item.features__item__light
+      router-link(to="/introduction/problem-statement").features__item.features__item__light
         .features__item__image
           icon-rocket.features__item__image__img
         .features__item__text
@@ -19,7 +19,7 @@
           .features__item__text__p Learn about the various parts that make up Paralink
     .sections__wrapper
       .h2 Learn
-      .p__alt Get familiar with Paralink Nodes, Paralink Query Language and Paralink entropy as a service.
+      .p__alt Get familiar with Paralink Node, Paralink Oracles and Paralink Query Language.
       .sections
         router-link.sections__item(tag="a" :to="section.url" v-for="section in $frontmatter.sections")
           component(:is="`tm-icon-${section.icon}`").sections__item__icon

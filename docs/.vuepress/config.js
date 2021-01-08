@@ -35,6 +35,11 @@ module.exports = {
               directory: true,
               path: '/whitepaper',
             },
+            {
+              title: 'Developer Guide',
+              directory: true,
+              path: '/developer-guide',
+            },
           ],
         },
       ],

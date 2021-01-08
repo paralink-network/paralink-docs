@@ -6,9 +6,9 @@ order: 6
 
 To satisfy all kinds of applications, Paralink offers 3 security models with different cost, convenience and security characteristics. 
 
-## Simple Ingress
+## Simple Oracle
 
-Paralink Nodes can be used as a multi-chain ingress from any 3rd party data source by any developer.
+Paralink Nodes can be used as a multi-chain oracle from any 3rd party data source by any developer.
 
 **Pros:**
 
@@ -22,9 +22,9 @@ Paralink Nodes can be used as a multi-chain ingress from any 3rd party data sour
 - Requires trust in node operators
 - Only suitable for applications that don't have financial impact
 
-## Trusted Ingress
+## Trusted Oracle
 
-Simple Ingress can be upgraded by the virtue of cryptographically signed PQL results with ECDSA private keys from reputable data providers.
+Simple Oracle can be upgraded by the virtue of cryptographically signed PQL results with ECDSA private keys from reputable data providers.
 
 **Pros:**
 
@@ -38,7 +38,7 @@ Simple Ingress can be upgraded by the virtue of cryptographically signed PQL res
 
 - Single point of failure
 
-## On-Chain Security
+## On-Chain Consensus
 
 For applications that require the highest level of security, without having to rely on a single source of truth.
 

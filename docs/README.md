@@ -1,18 +1,18 @@
 ---
 layout: home
 title: Paralink Network
-description: Real world data ingress for modern cross-chain applications.
+description: A multi-chain oracle platform for DeFi applications.
 sections:
-  - title: Summary
-    desc: High-level overview of Paralink
-    url: /whitepaper/summary
+  - title: Developer Guide
+    desc: Deeper dive into Paralink components
+    url: /developer-guide/getting-started
     icon: intro
   - title: Whitepaper
-    desc: Deeper dive into Paralink components
+    desc: High-level overview of Paralink
     icon: whitepaper
     url: /whitepaper/paralink-node
 stack:
-  - title: Polkadot
+  - title: Substrate
     desc: The blockchain framework powering Paralink on-chain consensus
     color: "#6578fc"
     label: polkadot
@@ -23,7 +23,7 @@ stack:
     label: ipfs
     url: https://docs.ipfs.io/
   - title: Rust
-    desc: The core language behind Polkadot
+    desc: The core language behind Paralink and Polkadot
     color: "#dc4d3f"
     label: rust
     url: https://www.rust-lang.org/
