@@ -10,7 +10,7 @@ sections:
   - title: Whitepaper
     desc: High-level overview of Paralink
     icon: whitepaper
-    url: /whitepaper/paralink-node
+    url: /whitepaper/summary
 stack:
   - title: Substrate
     desc: The blockchain framework powering Paralink on-chain consensus
