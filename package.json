@@ -1,10 +1,10 @@
 {
   "name": "paralink-docs",
   "version": "0.0.1",
-  "description": "ParaLink developer documentation",
+  "description": "Paralink developer documentation",
   "main": "index.js",
   "authors": {
-    "name": "ParaLink Network",
+    "name": "Paralink Network",
     "email": "info@paralink.network"
   },
   "repository": "https://github.com/paralink-network/paralink-docs",

@@ -1,4 +1,4 @@
-# ParaLink Documentation
+# Paralink Documentation
 
 ## Development
 

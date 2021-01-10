@@ -1,6 +1,6 @@
 module.exports = {
   theme: 'cosmos',
-  title: 'ParaLink Network Documentation',
+  title: 'Paralink Network Documentation',
   locales: {
     '/': {
       lang: 'en-US',
@@ -55,7 +55,7 @@ module.exports = {
       },
       forum: {
         title: 'Telegram Group',
-        text: 'General chat for all things ParaLink',
+        text: 'General chat for all things Paralink',
         url: 'https://t.me/paralink_network',
         bg: 'linear-gradient(221.79deg, #2eb1f3 -1.08%, #0289cc 95.88%)',
         logo: 'telegram',
