@@ -18,4 +18,4 @@ Some data sources require more security than others. One such example are the re
 
 ### Ethereum <> Polkadot Bridge
 
-While the on-chain coordination is done on Polkadot, the result of the computation can be made available trough directional Ethereum <> Polkadot bridge. The bridge technology is being developed by the community, and we anticipate bridges with other public blockchains to become available in the future.
+While the on-chain coordination is done on Polkadot, the result of the computation can be made available through directional Ethereum <> Polkadot bridge. The bridge technology is being developed by the community, and we anticipate bridges with other public blockchains to become available in the future.

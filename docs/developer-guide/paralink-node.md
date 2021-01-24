@@ -14,7 +14,7 @@ support for GraphQL.
 
 ## Supported networks
 Paralink Node currently supports Ethereum and Plasm. Our goal is to support as many networks as
-possible trough our extensible architecture.
+possible through our extensible architecture.
 
 ## Installation
 To setup the Paralink Node, follow the [instructions](https://github.com/paralink-network/paralink-node/blob/master/README.md).

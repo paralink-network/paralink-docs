@@ -13,7 +13,7 @@ Paralink network offers 3 types of oracle solutions, with pros and cons of each 
  - Trusted Oracles
  - Oracle Quorums
 
-As part of the developer guide we will walk you trough each of the oracle solutions and provide
+As part of the developer guide we will walk you through each of the oracle solutions and provide
 example implementations.
 
 ## Base Components
@@ -22,7 +22,7 @@ example implementations.
 **[Trusted Oracles](/developer-guide/trusted-oracle)** run on smart contract chains (Ethereum, Plasm, Moonbeam, etc) and are powered by our
 open-source oracle contracts for EVM and WASM runtimes.
 
-**[Oracle Quorums](/developer-guide/oracle-quorums)** where on-chain consensus is achieved trough our Substrate based blockchain
+**[Oracle Quorums](/developer-guide/oracle-quorums)** where on-chain consensus is achieved through our Substrate based blockchain
 (currently in testnet phase).
 
 The 3 oracle solutions above use **[Paralink Query Language](/developer-guide/paralink-query-language)** and

@@ -8,7 +8,7 @@ Paralink Token (PARA) is an incentive token used for on-chain coordination and g
 
 ### Gas Costs & Ingress Incentives
 
-PARA is used to pay for gas costs of the callbacks onto 3rd party blockchains. The latest suggested gas price is available trough the [Paralink Gas Oracle]().
+PARA is used to pay for gas costs of the callbacks onto 3rd party blockchains. The latest suggested gas price is available through the [Paralink Gas Oracle]().
 
 Adding PARA as a fee to a data request transaction is also an incentive mechanism for a particular quorum to prioritize the query.
 
