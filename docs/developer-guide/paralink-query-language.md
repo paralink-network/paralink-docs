@@ -15,7 +15,7 @@ It can parse JSON and SQL responses. For Ethereum it also automatically finds an
 Information from multiple data sources can be aggregated using `mean`, `median` or `mode`.
 It also supports basic math operations such as `+`, `-`, `*`, `/`, `%`.
 
-The information can be validated off-chain using validation functions such as `min_participation`, `mode_consensus` and `variance_treshold`.
+The information can be validated off-chain using validation functions such as `min_participation`, `mode_consensus` and `variance_threshold`.
 
 And lastly, the results can be type casted into common data types as expected by virtual
 machines running the smart contracts.

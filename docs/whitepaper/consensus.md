@@ -10,7 +10,7 @@ Relayer quorums are self-organizing groups of Paralink Node operators, who's job
 
 ### Consensus
 
-In order to service a callback to a data request, `min_treshold` relayers have to agree on the result. Agreement is defined by the variance treshold. The result is then aggregated on-chain using the mean for continuous, and mode for discrete values.
+In order to service a callback to a data request, `min_threshold` relayers have to agree on the result. Agreement is defined by the variance threshold. The result is then aggregated on-chain using the mean for continuous, and mode for discrete values.
 
 ### Costs and scalability
 

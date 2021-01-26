@@ -39,7 +39,7 @@ The data collected from multiple sources and aggregated with a function like `me
     ],
     "aggregate": {"@price": "mean"},
     "validate": {
-        "min_treshold": 2,
+        "min_threshold": 2,
         "max_variance": 0.5,
     },
     "callback": {
