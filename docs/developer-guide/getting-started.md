@@ -33,6 +33,7 @@ the **[Paralink Node](/developer-guide/paralink-node)** for servicing the underl
 | -------------------- | ------------- | ------------- | -------------- | ------------- | ----------- |
 | Ethereum             | ✔             | ✔             | ✔              | ⨯             | TBD         |
 | Plasm                | ✔             | ✔             | ✔              | ⨯             | TBD         |
+| Edgeware             | TBD           | TBD           | TBD            | ⨯             | TBD         |
 | Moonbeam             | TBD           | TBD           | TBD            | ⨯             | TBD         |
 | Paralink Testnet     | TBD           | ⨯             | ⨯              | ✔             | TBD         |
 | Paralink on Kusama   | TBD           | ⨯             | ⨯              | TBD           | TBD         |
