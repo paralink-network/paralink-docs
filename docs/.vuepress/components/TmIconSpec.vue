@@ -19,7 +19,7 @@
         <circle
           id="Oval"
           stroke-width="0.8"
-          fill="#5269FF"
+          fill="#3769a7"
           cx="16"
           cy="19"
           r="16"

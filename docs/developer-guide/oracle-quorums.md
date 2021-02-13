@@ -17,7 +17,4 @@ active development. At the moment, this solution is not yet suitable for product
  - Accurate, real-time pricing data feeds for leveraged derivatives and money markets
  - Regular, cross-chain state synchronization
 
-
-## Testnet
-We are launching the first aura based testnet with oracle quorums soon. Please check our
-[blog](https://blog.paralink.network) for updates.
+The oracle quorums are currently available on the [Developer Testnet](/developer-guide/testnet).
