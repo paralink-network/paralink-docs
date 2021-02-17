@@ -29,15 +29,30 @@ The 3 oracle solutions above use **[Paralink Query Language](/developer-guide/pa
 the **[Paralink Node](/developer-guide/paralink-node)** for servicing the underlying oracle requests.
 
 ## Supported Networks
-| Network              | Paralink Node | Simple Oracle | Trusted Oracle | Oracle Quorum | Bridge/XCMP |
-| -------------------- | ------------- | ------------- | -------------- | ------------- | ----------- |
-| Ethereum             | ✔             | ✔             | ✔              | ⨯             | TBD         |
-| Plasm                | ✔             | ✔             | ✔              | ⨯             | TBD         |
-| Edgeware             | TBD           | TBD           | TBD            | ⨯             | TBD         |
-| Moonbeam             | TBD           | TBD           | TBD            | ⨯             | TBD         |
-| Paralink Testnet     | TBD           | ⨯             | ⨯              | ✔             | TBD         |
-| Paralink on Kusama   | TBD           | ⨯             | ⨯              | TBD           | TBD         |
-| Paralink on Polkadot | TBD           | ⨯             | ⨯              | TBD           | TBD         |
+
+### Ethereum chains
+
+| Network             | Simple Oracle | Trusted Oracle (EVM) | Bridge |
+| ------------------- | ------------- | -------------------- | ------ |
+| Ethereum            | ✔             | ✔                    | TBD    |
+| Binance Smart Chain | ✔             | ✔                    | TBD    |
+
+### Polkadot chains
+
+| Network  | Simple Oracle | EVM Oracle | WASM Oracle | XCMP |
+| -------- | ------------- | ---------- | ----------- | ---- |
+| Plasm    | ✔             | TBD        | ✔           | TBD  |
+| Edgeware | TBD           | TBD        | TBD         | TBD  |
+| Moonbeam | TBD           | TBD        | TBD         | TBD  |
+
+### Paralink chains
+
+| Network              | Paralink Node | Oracle Quorum | Bridge/XCMP |
+| -------------------- | ------------- | ------------- | ----------- |
+| Paralink Testnet     | TBD           | ✔             | TBD         |
+| Paralink on Kusama   | TBD           | TBD           | TBD         |
+| Paralink on Polkadot | TBD           | TBD           | TBD         |
+
 
 ## Result Routing
 The following schematic shows the results delivery path for different oracle types.

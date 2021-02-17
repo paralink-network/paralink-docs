@@ -8,48 +8,86 @@ Paralink Node is the backbone of the Paralink Network. Its responsible for sourc
 real world data sources and across blockchains. Multiple data sources are supported, as well
 as aggregation and validation as defined in [PQL](/developer-guide/paralink-query-language) pipelines.
 
-## Supported protocols
-Currently HTTP/JSON, SQL (Postgres, MySQL, SQLite) and IPFS are supported. We are also planning to add
-support for GraphQL.
+## Supported data protocols
+Currently HTTP/JSON, SQL (Postgres, MySQL, SQLite), GraphQL and IPFS are supported. 
 
-## Supported networks
-Paralink Node currently supports Ethereum and Plasm. Our goal is to support as many networks as
-possible through our extensible architecture.
+## Supported chains
+
+Currently we support Ethereum and its derivatives (Binance Smart Chain, Tron, etc) and Polkadot Substrate based chains. Please refer to this [table](/developer-guide/getting-started.html#supported-networks) for up to date information on supported networks.
 
 ## Installation
-To setup the Paralink Node, follow the [instructions](https://github.com/paralink-network/paralink-node/blob/master/README.md).
+In this guide we will opt in for a premade Docker setup for a quick start. If you're interested in setting up all the components yourself, feel free to follow the [installation and configuration guide](https://github.com/paralink-network/paralink-node/blob/master/README.md).
 
-## Configuration
+**Step 1: Clone the Paralink Node**
+
+```
+git clone --recurse-submodules git@github.com:paralink-network/paralink-node.git
+cd paralink_node
+```
+
+**Step 2: Setup the configuration directory**
+
+In this case we will just opt in for a `.paralink` folder in our home directory for convenience.
+
+Modify `HOME_MOUNT_DIR` variable in `.env` to point to your home directory. Then create a `.paralink` folder inside the `HOME_MOUNT_DIR`.
+
+```
+mkdir ~/.paralink
+```
 
 ### Base configuration
-Paralink Node depends on PostgreSQL for persistance. Please set your local postgres credentials in
-`.env` file.
+We will setup the basic Paralink Node without any additional plugins:
+
+```
+echo "plugins:" > ~/.paralink/plugins.yaml
+```
 
 ### Networks
-Add the network(s) you wish to interact with by modifying the `.env` config. For example, to add
-Ethereum support via Infura, set:
+Add the networks you wish to interact with by modifying the `~/.paralink/chain_config.json` file
+
+**Example 1:  Ethereum via Infura:**
+
 ```
-WEB3_PROVIDER_URI=https://mainnet.infura.io/v3/<infura-project-id>
+{
+	"name": "plasm-local",
+	"type": "evm",
+	"project": "plasm",
+	"url":  "ws://localhost:8545",
+	"credentials": {"private_key": "<PRIVATE_KEY>"},
+	"tracked_contracts": [<list of contract addresses to listen for events>],
+	"oracle_metadata": "<path_to_oracle_abi> | optional"
+}
 ```
 
-### Accounts
-For the node to be able to execute callbacks or interact with the oracle contracts it needs the
-appropriate private keys for singning the transactions.
+**Example 2: Substrate chain with its full-node running locally:**
 
-The keys can be imported via cli:
 ```
-./paralink-node accounts import <private_key>
+{
+	"name": "dev-canvas",
+	"type": "substrate",
+	"project": "canvas",
+	"url": "ws://127.0.0.1:9944",
+	"credentials":{
+			"private_key": "<PRIVATE_KEY>",
+			"public_key": "<PUBLIC_KEY, different than SS58 ADDRESS>"
+	},
+	"tracked_contracts": [<list of contract addresses to listen for events>],
+	"metadata_file": "<path to ink! oracle metadata.json | optional"
+}
 ```
 
-### Contracts
-Check the [Simple Oracle](/developer-guide/simple-oracle) and the [Trusted Oracle](/developer-guide/trusted-oracle) guides to see how to configure the Paralink Node to work with each.
+*Note: Storing credentials in plain text is not wise. We are working on a proper account management solution.*
 
-## Usage
-The node can be started via `node start` command.
+What are the `tracked_contracts`? These are the oracles we will be servicing with our node.  If you know the addresses of the oracles already simply paste them into `tracked_contracts`. Otherwise you will have to deploy your own.
+
+Check out the [Trusted Oracle](/developer-guide/trusted-oracle) guide to see how to deploy EVM and WASM based oracles.
+
+## Run the node
+Once the node is fully configured with the networks, accounts and oracle contract addresses, we can start it up with the `docker-compose`.
 ```
-./paralink-node node start --host 127.0.0.1
+docker-compose -f docker-compose.yml -f docker-compose.prod.yml up --build
 ```
-This will also bring up the UI, available at `http://localhost:7424`
+This will also bring up the UI, available at `http://localhost:7425`
 
 ## API
-The node also exposes JSON-RPC endpoints for programmatic use.
+The node also exposes JSON-RPC endpoints for programmatic use. The API is available at `http://localhost:7425`. Please check out our [examples](https://github.com/paralink-network/paralink-node/tree/master/examples) on how to use the API.
