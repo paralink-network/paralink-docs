@@ -49,6 +49,20 @@ Add the networks you wish to interact with by modifying the `~/.paralink/chain_c
 
 ```
 {
+    "name": "eth-mainnet",
+    "type": "evm",
+    "project": "eth",
+    "url":  "https://mainnet.infura.io/v3/<INFURA_KEY>",
+    "credentials": {},
+    "enabled": true,
+    "tracked_contracts": []
+}
+```
+
+**Example 2: Substrate chain (Plasm EVM) with its full-node running locally:**
+
+```
+{
 	"name": "plasm-local",
 	"type": "evm",
 	"project": "plasm",
@@ -59,7 +73,7 @@ Add the networks you wish to interact with by modifying the `~/.paralink/chain_c
 }
 ```
 
-**Example 2: Substrate chain with its full-node running locally:**
+**Example 3: Substrate chain with its full-node running locally:**
 
 ```
 {
