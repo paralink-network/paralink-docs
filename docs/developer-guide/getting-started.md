@@ -8,38 +8,34 @@ contracts, as well as for node operators who wish to provide a trusted oracle se
 oracle quorum.
 
 ## Oracle Types
-Paralink network offers 3 types of oracle solutions, with pros and cons of each outlined in the [whitepaper](/whitepaper/security):
- - Simple Oracles
- - Trusted Oracles
- - Oracle Quorums
+Paralink network offers traditional as well as fully decentralized oracle solutions, with pros and cons of each outlined in the [whitepaper](/whitepaper/security):
+ - Smart contract oracles for EVM and WASM (Paralink Oracle)
+ - Oracle Quorums with XCMP/Bridge relayers (Paralink Chain)
 
 As part of the developer guide we will walk you through each of the oracle solutions and provide
 example implementations.
 
 ## Base Components
-**[Simple Oracles](/developer-guide/simple-oracle)** can be self-serviced by the Paralink Node.
-
-**[Trusted Oracles](/developer-guide/trusted-oracle)** run on smart contract chains (Ethereum, Plasm, Moonbeam, etc) and are powered by our
+**[Paralink Oracles](/developer-guide/paralink-oracle)** run on smart contract chains (Ethereum, Plasm, Moonbeam, etc) and are powered by our
 open-source oracle contracts for EVM and WASM runtimes.
 
 **[Oracle Quorums](/developer-guide/oracle-quorums)** where on-chain consensus is achieved through our Substrate based blockchain
 (currently in testnet phase).
 
-The 3 oracle solutions above use **[Paralink Query Language](/developer-guide/paralink-query-language)** and
-the **[Paralink Node](/developer-guide/paralink-node)** for servicing the underlying oracle requests.
+Both oracle solutions above use **[Paralink Query Language](/developer-guide/paralink-query-language)** and the **[Paralink Node](/developer-guide/paralink-node)** for servicing the underlying oracle requests.
 
 ## Supported Networks
 
 ### Ethereum chains
 
-| Network             | Simple Oracle | Trusted Oracle (EVM) | Bridge |
+| Network             | Paralink Node | Trusted Oracle (EVM) | Bridge |
 | ------------------- | ------------- | -------------------- | ------ |
 | Ethereum            | ✔             | ✔                    | TBD    |
 | Binance Smart Chain | ✔             | ✔                    | TBD    |
 
 ### Polkadot chains
 
-| Network  | Simple Oracle | EVM Oracle | WASM Oracle | XCMP |
+| Network  | Paralink Node | EVM Oracle | WASM Oracle | XCMP |
 | -------- | ------------- | ---------- | ----------- | ---- |
 | Plasm    | ✔             | TBD        | ✔           | TBD  |
 | Edgeware | TBD           | TBD        | TBD         | TBD  |

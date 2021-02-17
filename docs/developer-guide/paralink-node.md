@@ -94,7 +94,7 @@ Add the networks you wish to interact with by modifying the `~/.paralink/chain_c
 
 What are the `tracked_contracts`? These are the oracles we will be servicing with our node.  If you know the addresses of the oracles already simply paste them into `tracked_contracts`. Otherwise you will have to deploy your own.
 
-Check out the [Trusted Oracle](/developer-guide/trusted-oracle) guide to see how to deploy EVM and WASM based oracles.
+Check out the [Paralink Oracle](/developer-guide/paralink-oracle) guide to see how to deploy EVM and WASM based oracles.
 
 ## Run the node
 Once the node is fully configured with the networks, accounts and oracle contract addresses, we can start it up with the `docker-compose`.
