@@ -53,9 +53,10 @@ Both oracle solutions above use **[Paralink Query Language](/developer-guide/par
 ## Result Routing
 The following schematic shows the results delivery path for different oracle types.
 ![](https://i.imgur.com/rLDzM9G.png)
+
 In the case of Simple Oracles, the callbacks are executed by the Paralink Node directly, to the
 address specified in PQL definition. 
 
-With Trusted Oracles, the Paralink Node is used to interact with the on-chain oracle contract, which delivers the callback result to the target smart contract.
+With Paralink Oracles (formerly Trusted Oracle/Ingress), the Paralink Node is used to interact with the on-chain oracle contract, which delivers the callback result to the target smart contract.
 
 In oracle quorums the oracles submit result proposals using the Paralink Node. Paralink blockchain (as parachain) itself is responsible for aggregation and validation of the final result. Relayers send the final result to other _parachains_ via XCMP and to other _blockchains_ via respective bridge.
