@@ -28,10 +28,10 @@ Both oracle solutions above use **[Paralink Query Language](/developer-guide/par
 
 ### Ethereum chains
 
-| Network             | Paralink Node | Trusted Oracle (EVM) | Bridge |
-| ------------------- | ------------- | -------------------- | ------ |
-| Ethereum            | ✔             | ✔                    | TBD    |
-| Binance Smart Chain | ✔             | ✔                    | TBD    |
+| Network             | Paralink Node | Paralink Oracle (EVM) | Bridge |
+| ------------------- | ------------- | --------------------- | ------ |
+| Ethereum            | ✔             | ✔                     | TBD    |
+| Binance Smart Chain | ✔             | ✔                     | TBD    |
 
 ### Polkadot chains
 

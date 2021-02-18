@@ -9,10 +9,9 @@ multi-sig's or DAOs. The governing body appoints the oracle as well as a whiteli
 contracts that are being provided with the oracle service.
 
 In essence, Paralink Oracles are open source and can be deployed by anyone, however in practice, the
-most reputable TO's will likely be the most successful.
+most reputable oracle providers will likely be the most successful.
 
-Paralink oracles are also a DeFi primitive for reputable data vendors to sell their signed data
-feeds.
+Paralink oracles a great DeFi primitive for reputable data vendors to sell their on-demand data feeds.
 
 **Example uses cases:**
 
